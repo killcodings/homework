@@ -1,0 +1,9 @@
+1. For both files and directories, File class is used.
+2. Files have a lot of methods, most of them are just easily googled in rare
+occasions when you need it.
+3. Method mkdir() creates a directory with path provided in the constructor. It fails
+if the structure doesn’t exist yet or if the directory name is already taken.
+4. Method mkdirs() also creates a directory, but it also creates all the directories
+along the way if they are absent.
+5. Method list() returns the names of all files and directories in a directory.
+6. Methods isFile() and isDirectory() check if File is actually a file or a directory.
